@@ -496,6 +496,20 @@ a.dropdown-menu__link:after {
         margin-bottom: 5px;
     }
 }
+@media (min-width: 1211px) {
+    .menu__item:nth-child(2):hover .menu__link {
+        background-color: #111;
+    }
+    .menu__item:nth-child(4):hover .menu__link {
+        background-color: #111;
+    }
+    .menu__item:nth-child(2):hover .menu__link-arrow::after {
+        transform: rotate(270deg);
+    }
+    .menu__item:nth-child(4):hover .menu__link-arrow::after {
+        transform: rotate(270deg);
+    }
+}
 /* greeting */
 .greeting {
     display: flex;
