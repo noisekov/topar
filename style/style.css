@@ -2230,7 +2230,7 @@ a.dropdown-menu__link:after {
 .burger {
     display: none;
 }
-@media (max-width: 1210px) {
+@media (max-width: 1211px) {
     .burger {
         display: flex;
         width: 30px;
